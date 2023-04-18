@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8087058e-6d8e-4585-8bd1-3b3309446685" name="Changes" comment="added coffee recipe">
+    <list default="true" id="8087058e-6d8e-4585-8bd1-3b3309446685" name="Changes" comment="update project step 3 vol 1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/hiperskill/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/hiperskill/Main.java" afterDir="false" />
     </list>
@@ -41,7 +41,7 @@
       <option name="presentableId" value="Default" />
       <updated>1681594136807</updated>
       <workItem from="1681594138163" duration="724000" />
-      <workItem from="1681681630339" duration="2072000" />
+      <workItem from="1681681630339" duration="3832000" />
     </task>
     <task id="LOCAL-00001" summary="added first part of project">
       <created>1681594179720</created>
@@ -57,7 +57,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681682091028</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="update project step 3 vol 1">
+      <created>1681855149610</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1681855149610</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -77,6 +84,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added first part of project" />
     <MESSAGE value="added coffee recipe" />
-    <option name="LAST_COMMIT_MESSAGE" value="added coffee recipe" />
+    <MESSAGE value="update project step 3 vol 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="update project step 3 vol 1" />
   </component>
 </project>
