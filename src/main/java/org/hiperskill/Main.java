@@ -22,7 +22,7 @@ public class Main {
         int requestedCoffeeCups = scanner.nextInt();
 
         // Calculate the maximum number of cups of coffee that can be made with the given resources
-        int maxPossibleCups = calculatePossibleCups(waterAmount, milkAmount, coffeeBeansAmount)
+        int maxPossibleCups = calculatePossibleCups(waterAmount, milkAmount, coffeeBeansAmount);
 
         // Print the result
         if (maxPossibleCups > requestedCoffeeCups) {
@@ -36,7 +36,6 @@ public class Main {
 
     public static int calculatePossibleCups(int waterAmount, int milkAmount, int coffeeBeansAmount) {
         // Calculate the maximum number of cups of coffee that can be made with the given resources
-        int possibleCups = Math.min(Math.min(waterAmount / WATER_PER_CUP, milkAmount / MILK_PER_CUP), coffeeBeansAmount / COFFEE_BEANS_PER_CUP);
-        return possibleCups;
+        return Math.min(Math.min(waterAmount / WATER_PER_CUP, milkAmount / MILK_PER_CUP), coffeeBeansAmount / COFFEE_BEANS_PER_CUP);
     }
 }
