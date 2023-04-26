@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8087058e-6d8e-4585-8bd1-3b3309446685" name="Changes" comment="completed stage 3 of project  + added comments">
+    <list default="true" id="8087058e-6d8e-4585-8bd1-3b3309446685" name="Changes" comment="completed stage 4 of project">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/hiperskill/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/hiperskill/Main.java" afterDir="false" />
     </list>
@@ -45,7 +45,7 @@
       <workItem from="1681681630339" duration="4662000" />
       <workItem from="1681943096250" duration="922000" />
       <workItem from="1682022652681" duration="789000" />
-      <workItem from="1682423545492" duration="3129000" />
+      <workItem from="1682423545492" duration="5319000" />
     </task>
     <task id="LOCAL-00001" summary="added first part of project">
       <created>1681594179720</created>
@@ -82,7 +82,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681856732615</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="completed stage 4 of project">
+      <created>1682427017518</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1682427017518</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -104,6 +111,7 @@
     <MESSAGE value="added coffee recipe" />
     <MESSAGE value="update project step 3 vol 1" />
     <MESSAGE value="completed stage 3 of project  + added comments" />
-    <option name="LAST_COMMIT_MESSAGE" value="completed stage 3 of project  + added comments" />
+    <MESSAGE value="completed stage 4 of project" />
+    <option name="LAST_COMMIT_MESSAGE" value="completed stage 4 of project" />
   </component>
 </project>

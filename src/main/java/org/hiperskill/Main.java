@@ -99,10 +99,15 @@ public class Main {
         System.out.println("What do you want to buy? 1 - espresso, 2 - latte, 3 - cappuccino: ");
         int coffeeType = scanner.nextInt();
         switch (coffeeType) {
-            case 1 -> {                 //expresso For one espresso, the coffee machine needs 250 ml of water and 16 g of coffee beans. It costs $4.
-                waterAmount -= 250;
-                beansAmount -= 16;
-                money += 4;
+            case 1 -> {                 //espresso For one espresso, the coffee machine needs 250 ml of water and 16 g of coffee beans. It costs $4.
+                if (checkIfCanMakeEspresso()) {
+                    waterAmount -= 250;
+                    beansAmount -= 16;
+                    money += 4;
+                } else {
+                    System.out.println("");
+                }
+
             }
             case 2 -> {                 //For a latte, the coffee machine needs 350 ml of water, 75 ml of milk, and 20 g of coffee beans. It costs $7.
                 waterAmount -= 350;
@@ -119,8 +124,17 @@ public class Main {
             default -> {
             }
         }
-        cupsAmount--;
+        cupsAmount = cupsAmount > 0 ? cupsAmount-- : cupsAmount;
+    }
 
+    public static boolean checkIfAnyCups() {
+        return cupsAmount > 0 ? true : false;
+    }
+
+    public static boolean checkIfCanMakeEspresso() {
+        return waterAmount >= 250 ?
+                (beansAmount >= 16 ?
+                        (checkIfAnyCups() ? true : false) : false) : false;
     }
 
 
