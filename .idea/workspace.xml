@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8087058e-6d8e-4585-8bd1-3b3309446685" name="Changes" comment="working on stage 5 of project">
+    <list default="true" id="8087058e-6d8e-4585-8bd1-3b3309446685" name="Changes" comment="stage of 5 completed">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/hiperskill/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/hiperskill/Main.java" afterDir="false" />
     </list>
@@ -25,15 +25,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/my_stuff/Repos/coffeeMachine&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "extract.method.default.visibility": "private",
+    "last_opened_file_path": "D:/my_stuff/Repos/coffeeMachine",
+    "nodejs_package_manager_path": "npm"
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -50,7 +51,7 @@
       <workItem from="1682545725901" duration="772000" />
       <workItem from="1682549252564" duration="154000" />
       <workItem from="1682549426519" duration="5251000" />
-      <workItem from="1682629997774" duration="1934000" />
+      <workItem from="1682629997774" duration="3356000" />
     </task>
     <task id="LOCAL-00001" summary="added first part of project">
       <created>1681594179720</created>
@@ -101,7 +102,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682545873935</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="stage of 5 completed">
+      <created>1682632200232</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1682632200232</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -125,7 +133,8 @@
     <MESSAGE value="completed stage 3 of project  + added comments" />
     <MESSAGE value="completed stage 4 of project" />
     <MESSAGE value="working on stage 5 of project" />
-    <option name="LAST_COMMIT_MESSAGE" value="working on stage 5 of project" />
+    <MESSAGE value="stage of 5 completed" />
+    <option name="LAST_COMMIT_MESSAGE" value="stage of 5 completed" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

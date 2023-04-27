@@ -88,40 +88,37 @@ public class Main {
             case "1" -> {                 //espresso For one espresso, the coffee machine needs 250 ml of water and 16 g of coffee beans. It costs $4.
                 msg = new StringBuilder(getIfCanMakeCoffeeMsg(ESPRESSO_WATER_REQ, ESPRESSO_MILK_REQ, ESPRESSO_BEANS_REQ));
                 if (msg.toString().equals("I have enough resources, making you a coffee!")) {
-                    waterAmount -= ESPRESSO_WATER_REQ;
-                    beansAmount -= ESPRESSO_BEANS_REQ;
-                    money += ESPRESSO_PRICE;
-                    cupsAmount--;
+                    updateResources(ESPRESSO_WATER_REQ, ESPRESSO_MILK_REQ, ESPRESSO_BEANS_REQ, ESPRESSO_PRICE);
                 }
             }
             case "2" -> {                 //For a latte, the coffee machine needs 350 ml of water, 75 ml of milk, and 20 g of coffee beans. It costs $7.
                 msg = new StringBuilder(getIfCanMakeCoffeeMsg(LATTE_WATER_REQ, LATTE_MILK_REQ, LATTE_BEANS_REQ));
                 if (msg.toString().equals("I have enough resources, making you a coffee!")) {
-                    waterAmount -= LATTE_WATER_REQ;
-                    milkAmount -= LATTE_MILK_REQ;
-                    beansAmount -= LATTE_BEANS_REQ;
-                    money += LATTE_PRICE;
-                    cupsAmount--;
+                    updateResources(LATTE_WATER_REQ, LATTE_MILK_REQ, LATTE_BEANS_REQ, LATTE_PRICE);
                 }
             }
             case "3" -> {                 //cappuccino, the coffee machine needs 200 ml of water, 100 ml of milk, and 12 g of coffee beans. It costs $6.
                 msg = new StringBuilder(getIfCanMakeCoffeeMsg(CAPPUCCINO_WATER_REQ, CAPPUCCINO_MILK_REQ, CAPPUCCINO_BEANS_REQ));
                 if (msg.toString().equals("I have enough resources, making you a coffee!")) {
-                    waterAmount -= CAPPUCCINO_WATER_REQ;
-                    milkAmount -= CAPPUCCINO_MILK_REQ;
-                    beansAmount -= CAPPUCCINO_BEANS_REQ;
-                    money += CAPPUCCINO_PRICE;
-                    cupsAmount--;
+                    updateResources(CAPPUCCINO_WATER_REQ, CAPPUCCINO_MILK_REQ, CAPPUCCINO_BEANS_REQ, CAPPUCCINO_PRICE);
                 }
             }
             case "back" -> {
             }
             default -> {
+                msg = new StringBuilder("Operation not allowed!");
             }
         }
         System.out.println(msg);
-//        cupsAmount = cupsAmount > 0 ? cupsAmount-- : cupsAmount;
         menu();
+    }
+
+    public static void updateResources(int coffeeToDecrease, int milkToDecrease, int coffeeBeansToDecrease, int priceToAdd) {
+        waterAmount -= coffeeToDecrease;
+        milkAmount -= milkToDecrease;
+        beansAmount -= coffeeBeansToDecrease;
+        money += priceToAdd;
+        cupsAmount--;
     }
 
     public static boolean checkIfAnyCups() {
